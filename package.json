@@ -1,0 +1,38 @@
+{
+  "name": "tau-utils",
+  "version": "0.1.0",
+  "description": "Various utility functions for Tau Prolog",
+  "main": "tau-utils.js",
+  "scripts": {
+    "test": "tape t/*.js"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "none",
+    "arrowParens": "avoid"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Risto-Stevcev/tau-utils.git"
+  },
+  "keywords": [
+    "tau",
+    "prolog",
+    "utils"
+  ],
+  "author": "Risto Stevcev",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/Risto-Stevcev/tau-utils/issues"
+  },
+  "homepage": "https://github.com/Risto-Stevcev/tau-utils#readme",
+  "peerDependencies": {
+    "tau-prolog": "^0.3.1"
+  },
+  "devDependencies": {
+    "marked": "^2.1.3",
+    "prettier": "^2.3.2",
+    "tape": "^5.3.1"
+  }
+}
